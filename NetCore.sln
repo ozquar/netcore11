@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Lib", "NetCore.Lib\NetCore.Lib.csproj", "{97A8D883-E56F-446C-8149-A3B2C9609B8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.Cmd", "NetCore.Cmd\NetCore.Cmd.csproj", "{66344C73-B119-4DE1-A0E3-926A154AB55B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore.API", "NetCore.API\NetCore.API.csproj", "{F0140704-2BA6-4F46-9D2A-4F1968343BE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{97A8D883-E56F-446C-8149-A3B2C9609B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A8D883-E56F-446C-8149-A3B2C9609B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97A8D883-E56F-446C-8149-A3B2C9609B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66344C73-B119-4DE1-A0E3-926A154AB55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66344C73-B119-4DE1-A0E3-926A154AB55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66344C73-B119-4DE1-A0E3-926A154AB55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66344C73-B119-4DE1-A0E3-926A154AB55B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0140704-2BA6-4F46-9D2A-4F1968343BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0140704-2BA6-4F46-9D2A-4F1968343BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0140704-2BA6-4F46-9D2A-4F1968343BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0140704-2BA6-4F46-9D2A-4F1968343BE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
