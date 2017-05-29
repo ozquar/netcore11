@@ -14,6 +14,8 @@ namespace NetCore.API.Models
         public int Price { get; set; }
         [BsonElement("Category")]
         public string Category { get; set; }
+        [BsonElement("IsMainCategory")]
+        public bool IsMainCategory { get; set; }
     }
 
 }
