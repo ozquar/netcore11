@@ -14,8 +14,6 @@ namespace NetCore.API.Models
         public int Price { get; set; }
         [BsonElement("Category")]
         public string Category { get; set; }
-        [BsonElement("SubCategory")]
-        public string SubCategory { get; set; }
     }
 
 }
