@@ -9,9 +9,11 @@ namespace NetCore.API.Models
         [BsonElement("ProductId")]
         public int ProductId { get; set; }
         [BsonElement("ProductName")]
-        public string ProductName { get; set; }
+        public string ProductName2 { get; set; }
         [BsonElement("Price")]
         public int Price { get; set; }
+        [BsonElement("Price2")]
+        public int Price2 { get; set; }
         [BsonElement("Category")]
         public string Category { get; set; }
         [BsonElement("IsMainCategory")]
